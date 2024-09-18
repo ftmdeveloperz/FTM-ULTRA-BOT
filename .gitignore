@@ -1,0 +1,33 @@
+# Python bytecode
+*.pyc
+*.pyo
+__pycache__/
+
+# Environment variables
+.env
+
+# Docker files
+Dockerfile
+
+# Dependency directories
+venv/
+.env/
+
+# Logs
+*.log
+
+# IDE/editor directories and files
+.vscode/
+.idea/
+*.swp
+
+# Render build files
+render.yaml
+
+# Heroku build files
+heroku.yml
+
+# Miscellaneous
+*.db
+*.sqlite3
+*.pkl
