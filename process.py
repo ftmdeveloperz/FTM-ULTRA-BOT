@@ -30,3 +30,4 @@ def improve_video_quality(input_path, output_path, resolution='720p'):
         return output_path
     except Exception as e:
         return f"An error occurred while improving video quality: {e}"
+
