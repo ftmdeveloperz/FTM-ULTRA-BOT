@@ -1,6 +1,7 @@
 from telegram import Update
 from telegram.ext import CallbackContext
-
+def about_info():
+    return "FTM ULTRA BOT is designed to process and manage media files efficiently."
 def about(update: Update, context: CallbackContext):
     """Send information about the bot."""
     about_message = (
