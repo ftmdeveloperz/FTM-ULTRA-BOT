@@ -1,7 +1,7 @@
 import os
 
 # Bot Configuration
-TOKEN = '7913243499:AAGiHTvlWK8x2SCIRN6LAZZqHPNyE0ULBjU'  # Replace with your actual bot token
+BOT_TOKEN = '7913243499:AAGiHTvlWK8x2SCIRN6LAZZqHPNyE0ULBjU'  # Replace with your actual bot token
 OWNER_ID = int(os.getenv('OWNER_ID', '7042535787'))
 ADMINS = [int(admin_id) for admin_id in os.getenv('ADMINS', '6521935712').split(',')]
 LOG_CHANNEL = os.getenv('LOG_CHANNEL', '-1002216221045')
