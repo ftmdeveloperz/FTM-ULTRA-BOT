@@ -54,7 +54,7 @@ async def clone(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 # Main function to start the bot
 async def main():
-    application = ApplicationBuilder().token(BOT_TOKEN).build()
+    application = ApplicationBuilder().token(TOKEN).build()
 
     # Register handlers
     application.add_handler(CommandHandler("start", start))
