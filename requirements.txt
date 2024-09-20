@@ -3,7 +3,6 @@ moviepy
 pydub
 ffmpeg-python
 pyrogram
-pytgcalls
 requests
 pymongo
 pyrofork
