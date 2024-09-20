@@ -21,7 +21,8 @@ MONGO_URI = os.getenv('MONGO_URI', 'mongodb+srv://funtoonsmultimedia: funtoonsmu
 DB_NAME = 'ftmgram'
 
 # Premium Users
-PREMIUM_USERS = {
+PREMIUM_USER_IDS = os.getenv('PREMIUM_USER_IDS', '7042535787')
+PREMIUM_USERS = { 7042535787: '2024-12-31'
     # user_id: expiry_date
     # Example: 123456789: '2024-12-31'
 }
