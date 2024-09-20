@@ -1,10 +1,10 @@
 import os
 
 # Bot Configuration
-TOKEN = 'your-bot-token'  # Replace with your actual bot token
-OWNER_ID = int(os.getenv('OWNER_ID', 'your-owner-id'))
-ADMINS = [int(admin_id) for admin_id in os.getenv('ADMINS', 'admin-id1,admin-id2').split(',')]
-LOG_CHANNEL = os.getenv('LOG_CHANNEL', 'your-log-channel-id')
+TOKEN = '7913243499:AAGiHTvlWK8x2SCIRN6LAZZqHPNyE0ULBjU'  # Replace with your actual bot token
+OWNER_ID = int(os.getenv('OWNER_ID', '7042535787'))
+ADMINS = [int(admin_id) for admin_id in os.getenv('ADMINS', '6521935712').split(',')]
+LOG_CHANNEL = os.getenv('LOG_CHANNEL', '-1002216221045')
 
 # Subscription Plans
 SUBSCRIPTION_PLANS = {
@@ -17,8 +17,8 @@ SUBSCRIPTION_PLANS = {
 }
 
 # MongoDB Configuration
-MONGO_URI = os.getenv('MONGO_URI', 'mongodb://localhost:27017/')
-DB_NAME = 'ftm_ultra_bot'
+MONGO_URI = os.getenv('MONGO_URI', 'mongodb+srv://funtoonsmultimedia: funtoonsmultimedia@ftmgram.l3uji.mongodb.net/?retryWrites=true&w=majority&appName=ftmgram')
+DB_NAME = 'ftmgram'
 
 # Premium Users
 PREMIUM_USERS = {
