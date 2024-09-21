@@ -37,7 +37,7 @@ def trim_video(video_path, start_time, end_time, output_path):
         return f"An error occurred while trimming the video: {e}"
 
 # Function to improve video quality
-def improve_video_quality(input_path, output_path, resolution='720p'):
+def improve_video_quality(input_path, output_path):
     try:
         video = mp.VideoFileClip(input_path)
         video = video.resize(height=720)  # Adjust resolution
@@ -136,4 +136,4 @@ async def main():
 
 if __name__ == '__main__':
     import asyncio
-    asyncio.get_event_loop().run_until_complete(main())
+    asyncio.run(main())
