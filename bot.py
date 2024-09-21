@@ -136,4 +136,10 @@ async def main():
     await application.run_polling()
 
 if __name__ == '__main__':
-    asyncio.run(main())  # Use asyncio.run to start the bot
+    loop = asyncio.get_event_loop()
+    try:
+        loop.run_until_complete(main())  # Call the main function that starts the bot
+    except KeyboardInterrupt:
+        logging.info('Service Stopped Bye 👋')
+    finally:
+        loop.close()
